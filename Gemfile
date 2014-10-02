@@ -45,3 +45,6 @@ gem 'spring',        group: :development
 ###
 
 gem 'haml'
+
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
