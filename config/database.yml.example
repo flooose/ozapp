@@ -3,7 +3,6 @@ development: &default
   encoding: utf8
   host: localhost
   database: ozapp_development
-  # template: mercury_template
   username: ozapp
   password: ozapp
   pool: 5

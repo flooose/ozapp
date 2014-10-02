@@ -1,0 +1,6 @@
+= form_for @oz_art do |f|
+  = f.file_field 'file'
+  = f.text_field 'comment', placeholder: 'comment'
+  = f.text_field 'lat', placeholder: 'lat'
+  = f.text_field 'long', placeholder: 'long'
+  = f.submit
