@@ -1,4 +1,6 @@
 class OzArtsController < ApplicationController
+  before_action :detect_device_type
+
   def new
     @oz_art = OzArt.new
   end
