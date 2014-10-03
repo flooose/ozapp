@@ -48,3 +48,5 @@ gem 'haml'
 
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+
+gem 'byebug', group: [:development, :test]
