@@ -49,4 +49,7 @@ gem 'haml'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
-gem 'byebug', group: [:development, :test]
+group :development, :test do
+  gem 'byebug'
+  gem 'rspec-rails'
+end
